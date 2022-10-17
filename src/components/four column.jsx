@@ -1,8 +1,9 @@
 import React from "react";
+import './four column.css';
 
-function Cardsection4(){
+function Fourcolsec(){
     return(
-        <div className="container" id="section">
+        <div className="container" id="section" style={{'minWidth': "400px"}}>
              <div className="hr-row"></div>
              <div className="cardsec2-row" >
                  <div className="hr-div2">  </div>
@@ -79,4 +80,4 @@ function Cardsection4(){
 }
 
 
-export default Cardsection4;
+export default Fourcolsec;

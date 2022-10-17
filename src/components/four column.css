@@ -1,0 +1,84 @@
+
+.box1{
+    background-color: rgba(205, 177, 230, 0.592);
+    border-radius: 13px;
+    position: relative;
+    top: -7px;
+  }
+  .box2{
+    background-color: rgba(140, 229, 229, 0.635);
+    border-radius: 13px;
+    position: relative;
+    top: -7px;
+    margin-top: 14%;
+  }
+  .header{
+    text-align: center;
+  }
+  .header1{
+    
+    border-radius: 23px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: -19px;
+    height: 73px;
+  
+  } 
+  .hr-div2{
+    position: relative;
+        top: 62px;
+        height: 64px;
+        box-shadow: 0px 0px 10px;
+        width: 101%;
+        left: -7px;
+        border-radius: 10px;
+  }
+  
+  @media (min-width: 992px){
+   .box2{
+    height:450px;
+    margin-top: unset;
+    }
+    .cardsec2-row{
+      background-color: azure;
+    }
+    #menu{
+      background-color: none;
+    }
+   
+  }
+  
+  @media (min-width: 768px){
+    .box2{
+      height:440px;
+      margin-top: 10%;
+    }
+    .box1{
+      margin-top: 10%;
+      height: 440px;
+    }
+    .cardsec2-row{
+      background-color: azure;
+    }
+    .hr-row{
+      position: relative;
+        top: 62px;
+        height: 64px;
+        box-shadow: 0px 0px 10px;
+        width: 101%;
+        left: -7px;
+        border-radius: 10px;
+    }
+    .hr-div2{
+      display: none;
+    }
+    
+   }
+  
+   .cardsec2-row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: none;
+   }
+   

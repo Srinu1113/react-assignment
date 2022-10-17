@@ -1,7 +1,8 @@
 import React from 'react'
-import Carddiv from './Carddiv'
+// import Carddiv from './Carddiv';
+import './carddiv.css';
 
-const MainDiversity = () => {
+function CarddivMain(){
   return (
     
     <div className='row'>
@@ -20,7 +21,7 @@ const MainDiversity = () => {
       
             <div className='col-lg-6 three'>
             <Carddiv number="03"
-               para2="Cultivating a culture of inclusion and belonging. Inclusion and diversity will enrich the lives of our employees and strengthen the performance of our company and make a meaningful contribution to society."
+               para2="Cultivating a culture of inclusion and belonging. Inclusion and diversity will enrich the lives of our employees and strengthen the performance of our company and make a meaningful ."
               styles={{"backgroundColor":"red"}}/>
            </div> 
          
@@ -30,4 +31,4 @@ const MainDiversity = () => {
   )
 }
 
-export default MainDiversity
+export default CarddivMain;

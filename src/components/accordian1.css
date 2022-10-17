@@ -1,0 +1,50 @@
+/* .............accordian............... */
+
+
+
+#btn{
+    background-color: #983bd1;
+  }
+  .accordin-body{
+    box-shadow: 0px 0px 7px black;
+    border-radius: 10px;
+  }
+  .accordin-header-1{
+  background-color: rgba(255, 0, 0, 0.729);
+  }
+  .accordin-header-2{
+   background-color: rgba(137, 43, 226, 0.787);
+  }
+  .accordin-header-3{
+  background-color: rgba(0, 0, 255, 0.778);
+  }
+  .card-header:first-child {
+    border-radius: 10px;
+  }
+  .card-link{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-link:hover{
+    color: #fff;
+  }
+  @media (min-width: 768px){
+    
+    .last-dic{
+      margin: auto;
+    }
+  } 
+  @media (min-width: 992px){
+  .last-dic {
+    margin: unset;
+  }
+  
+  }
+  @media (min-width: 576px){
+    .acc {
+     
+      margin-top: 5%;
+  }
+  }

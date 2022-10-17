@@ -1,0 +1,27 @@
+/* ............card section ............*/
+
+#cardsize{
+    background: linear-gradient(red,blue);
+    border-radius: 10px;
+    color: #fff;
+    height: 143px;
+    max-width: 540px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    margin-top: 2%;
+  
+  }
+  #one{
+    height: 131px;
+    width: 144px;
+    top: 6px;
+    left: 12px;
+    position: relative;
+  }
+  .content{
+    right: -28px;
+    top: 7px;
+    position: relative;
+  }
+  

@@ -1,9 +1,9 @@
 import React from "react";
-
+import './emea right img.css'
 
 function Emea1(){
 return(
-  <div className="container emea1">
+  <div className="container emea1" style={{'minWidth': "720px"}} >
       <div className="row">
        
           <div className="col-lg-7 col-sm-12" id="para1">

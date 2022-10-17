@@ -1,10 +1,11 @@
 import React from "react";
+import './card.css';
 
 
 function Card() {
     return (
     
-        <div  id="cardsize" >
+        <div  id="cardsize" style={{'minWidth':"580px"}}>
             
                 <div>
                     <img src="Snap\Resources\VF.jpg" id="one" alt="" />

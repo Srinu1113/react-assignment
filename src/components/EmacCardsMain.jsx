@@ -1,13 +1,13 @@
 import React from 'react';
 // import  Grid from '@mui/material/Grid'
-import EmacCards from './Emac-cards';
-import './emecCard.css'
+import EmacCards from './EmacCards';
+import './EmacCardsMain.css';
 const EmacCardsMain = () => {
   return ( 
  
 
     
- <div className='row ' style={{ 'minWidth': "400px"}}>
+ <div className='row ' style={{ 'minWidth': "400px", 'marginTop':"7%"}}>
     <div className='col-lg-4 col-md-6'>
         <EmacCards
          text="sales"

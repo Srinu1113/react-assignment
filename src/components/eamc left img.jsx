@@ -1,8 +1,8 @@
 import React from "react";
-
+import './eamc left img.css';
 function Emea(){
     return(
-        <div className="container emea" style={{'backgroundImage': "linear-gradient(red,blue)" }}>
+        <div className="container emea" style={{'backgroundImage': "linear-gradient(red,blue)", 'minWidth': "720px" }}>
             <div className="row"  >
                 <div className="col-lg-5 col-sm-12" >
                         <img src="Snap\Resources\userpic2.png"  id="emea-image" alt="" />

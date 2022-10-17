@@ -1,36 +1,31 @@
 import React from "react";
 
 // import Card from "./components/card";
-// import Emea from "./components/emea section";
-// import Emea1 from "./components/Emea1";
-// import Carddiv from "./components/cardDiversity/Carddiv";
+// import Emea from "./components/eamc left img";
+// import Emea1 from "./components/emea right img";
 // import Resource from "./components/resource";
 // import Region from "./components/region";
 // import Accordion1 from "./components/accordian1";
-
+// import EmacCardsMain from "./components/EmacCardsMain";
+// import Fourcolsec from "./components/four column";
 // import Arc from "./components/arc";
-//  import EmacCardsMain from "./components/EmacCardsMain";
-// import CardsectionMain from "./components/cards section2 Main";
-import Cardsection4 from "./components/4 col";
-
-
+import CardsectionMain from "./components/cards section2 Main";
+  //  import Carddiv from "./components/Carddiv";
 function App() {
   return (
-    <div >
+    <div className="container" style={{'minWidth': "740px"}} >
 
          {/* <Card/>
         <Emea/>
         <Emea1/> 
-        <Carddiv/> 
+         <Resource/>
         <Region/>
-        <Resource/>
-        <Accordion1/>  */}
-
-      {/* <Arc/>  */}
-      {/* <EmacCardsMain/> */}
-     {/* < CardsectionMain /> */}
-     <Cardsection4/>
-        
+        <Accordion1/> 
+        <EmacCardsMain/>
+        <Fourcolsec/>
+        <Arc/>  */}
+     < CardsectionMain />
+          {/* <Carddiv/> */}
     </div>
     
       

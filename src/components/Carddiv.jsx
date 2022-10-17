@@ -1,7 +1,8 @@
 // import { PropaneSharp } from '@mui/icons-material';
 import React from 'react'
+import './carddiv.css';
 
-const Carddiv = (props) => {
+function Carddiv(){
   return (
    <div>
        
@@ -23,7 +24,7 @@ const Carddiv = (props) => {
                                  <h1 id="div1">01</h1>
                               </div>
                           </div>
-                              <p>Increasing the diversity of our workforce with specific goals for each dimension.</p>
+                              <p id="div-para">Increasing the diversity of our workforce with specific goals for each dimension.</p>
                      </div> 
               </div>
 
@@ -34,7 +35,7 @@ const Carddiv = (props) => {
                                  <h1 id="div2">02</h1>
                               </div>
                           </div>
-                              <p>Promoting I&D awareness throughout the organization,</p>
+                              <p id="div-para">Promoting I&D awareness throughout the organization,</p>
                      </div> 
               </div>
            </div> 
@@ -46,7 +47,7 @@ const Carddiv = (props) => {
                                <h1 id="div3">03</h1>
                              </div>
                         </div>
-                            <p>Cultivating a culture of inclusion and belonging. Inclusion and diversity will enrich the lives of our employees and strengthen the performance of our company and make a meaningful contribution to society.</p>
+                            <p id="div-para">Cultivating a culture of inclusion and belonging. Inclusion and diversity will enrich the lives of our employees and strengthen the performance of our company and make a meaningful contribution to society.</p>
                    </div>
                </div>  
          </div>  

@@ -1,0 +1,38 @@
+/* ...............region section.............. */
+.region top {
+    margin-top: 5%;
+  }
+  .para{
+    text-align: center;
+    margin: 28px;
+  }
+  .region{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    border: 1px solid #fff;
+    margin-top: 73px;
+    min-width: 725px;
+  }
+  .region::after{
+    display: block;
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    border-top: 9px solid red;
+    border-left: 9px solid blue;
+  }
+  .region::before{
+    display: block;
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    border-bottom: 9px solid red;
+    border-right: 9px  solid blue;
+  }

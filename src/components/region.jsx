@@ -1,5 +1,5 @@
 import React from "react";
-
+import './region.css';
 function Region(){
     return(
     <div>

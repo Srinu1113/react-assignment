@@ -1,17 +1,18 @@
-/* ............card section ............*/
+/* ............card section ............
+
 #cardsize{
   background: linear-gradient(red,blue);
   border-radius: 10px;
   color: #fff;
-  height: fit-content;
-    max-width: 540px;
-    position: relative;
-    margin: auto;
-    display: flex;
+  height: 143px;
+  max-width: 540px;
+  position: relative;
+  margin: auto;
+  display: flex;
 
 }
 #one{
-  height: 115px;
+  height: 131px;
   width: 144px;
   top: 6px;
   left: 12px;
@@ -21,28 +22,35 @@
   right: -28px;
   top: 7px;
   position: relative;
-}
+} */
 
 
 /* .................Emea right img section..............  */
-.emea{
-  margin-top: 7%;
+/* .emea{
+  margin-top: 5%;
 }
 #emea-image{
     left: -21px;
     position: relative;
     height: 101%;
-    width: 100%;
+    width: 106%;
 }
 #paragraph{
   color: #fff;
   line-height: 1.5;
 
-} 
+}  */
 
+/* element.style {
+}
+@media (min-width: 767px){
+.container {
+    min-width: 540px;
+}
+} */
 /* ...............Emea1 left img section................ */
-.emea1{
-  margin-top: 7%;
+/* .emea1{
+  margin-top: 5%;
 }
 #emea-img1{
   position: relative;
@@ -52,13 +60,13 @@
 }
 #para1{
   line-height: 1.5;
-}
+} */
 
 
 
 /* ...............region section.............. */
-.region top {
-  margin-top: 7%;
+/* .region top {
+  margin-top: 5%;
 }
 .para{
   text-align: center;
@@ -93,49 +101,37 @@
   right: -5px;
   border-bottom: 9px solid red;
   border-right: 9px  solid blue;
-  /* background-image:linear-gradient(red,blue) ; */
-}
+} */
 
 /* ................arc-section............... */
 
 
 /* #arc{
-position: relative;
-width:100%;
-max-height: fit-content;
-box-shadow: 0px 0px 10px #000; */
-
-/* }  */
+  min-width: 832px;
+  max-width: 100%;
+  box-shadow: 0px 0px 3px #000;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 5%;
+}
 #arc-img{
  position: absolute;
 max-width: fit-content;
 }
-#arc-para1{
+.arc-para{
   max-width: fit-content;
   margin: auto;
-  padding: 9%;
-  margin-top: -358px;
+  position: absolute;
+  top: 134px;
+  left: 103px;
   
-
-}
-/* -----arch--- */
-#arc{
-  max-width: 100%;
-  max-height: fit-content;
-  box-shadow: 0px 0px 4px #000;
-  border-radius: 20px;
-  position: relative;
-}
-/* img{
-  po
 } */
-
-
 
 /* ..............resource-section.......... */
 
+/* 
 .resource{
-  margin-top: 7%;
+  margin-top: 5%;
 }
 .resource-img1{
   max-width: 700px;
@@ -166,52 +162,32 @@ max-width: fit-content;
   position: absolute  ;
   left: 37%;
   top: 30px;
-}
-
-
-/* -------------Emca cards----------- */
-#emca-card{
-  max-width: 100%;
-    box-shadow: 1px 1px 22px black;
-    border-radius: 15px;
-    height: 150px;
-    min-width: 300px;
-   
-    /* width: fit-content; */
-}
-h1{
-  color: darkviolet;
-}
-/* .img-emca{
-  position: absolute;
-    right: 40px;
-    top: 47px;
 } */
 
 
-/* .........cardsection2........... */
-#card2{
+
+/* ............cardsection2........... */
+
+
+
+/* #card2{
   width: 100%;
   margin: 10px;
-  box-shadow: 1px 22px 10px white;
-  /* margin: 1%; */
-  /* border-radius: 15px; */
-  /* width: 38%; */
-  /* height: fit-content; */
-  /* width: fit-content; */
+  box-shadow: 1px 22px 10px rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 17px;
 }
 h1{
 color: darkviolet;
 }
-/* .img1{
-position: absolute;
-  right: 40px;
-  top: 47px;
+#four{
+  width: 58px;
 } */
 
+/* .............accordian............... */
 
-/* .........accordian............... */
 
+/* 
 #btn{
   background-color: #983bd1;
 }
@@ -244,7 +220,6 @@ background-color: rgba(0, 0, 255, 0.778);
   
   .last-dic{
     margin: auto;
-    /* margin-top: 17px; */
   }
 } 
 @media (min-width: 992px){
@@ -256,25 +231,21 @@ background-color: rgba(0, 0, 255, 0.778);
 @media (min-width: 576px){
   .acc {
    
-    margin-top: 7%;
+    margin-top: 5%;
 }
-}
-
-
-
-/* ..............4 col cardsection.............. */
-
-/* #section{
-  box-shadow: 0px 1px 2px black;
-    margin-top: -43px;
 } */
 
+
+
+/* ..............4 column section.............. */
+
+
+/* 
 .box1{
   background-color: rgba(205, 177, 230, 0.592);
   border-radius: 13px;
   position: relative;
   top: -7px;
-  /* height: 526; */
 }
 .box2{
   background-color: rgba(140, 229, 229, 0.635);
@@ -282,7 +253,6 @@ background-color: rgba(0, 0, 255, 0.778);
   position: relative;
   top: -7px;
   margin-top: 14%;
-  /* height: 450px; */
 }
 .header{
   text-align: center;
@@ -345,72 +315,67 @@ background-color: rgba(0, 0, 255, 0.778);
   .hr-div2{
     display: none;
   }
-  /* .hr-row{
-    display: none;
-  } */
   
  }
- #menu{
- 
-  /* background-color:azure ; */
-  /* margin: 1%; */
- }
+
  .cardsec2-row{
   display: flex;
   flex-wrap: wrap;
   background-color: none;
  }
- 
-
-
+  */
 
  /* ...........carddiversity.......... */
 
+
+/* 
  .small-div{
   max-width: 50px;
-  box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 1px #000;
   border-radius: 79px;
   color: #fff;
   position: relative;
-    top: 9px;
-    left: 22px;
+  top: 11px;
+  left: 14px;
+ }
+ #div-para{
+  position: relative;
+  top: -12px;
  }
  #div1{
   color: #fff;
-  background-color: rgba(234, 30, 30, 0.874);
+  background-color:rgb(214 27 27 / 93%);
   border-radius: 24px;
   position: relative;
  }
  #div2{
   color: #fff;
-  background-color: #9e29e8e7;
+  background-color:#9b08f9;
   border-radius: 24px;
   position: relative;
  }
  #div3{
   color: #fff;
-  background-color: rgba(66, 66, 227, 0.916);
+  background-color: rgb(97 97 247);
   border-radius: 24px;
   position: relative;
  }
-
-
  .inside-div{
  width: 440px;
  height: 177px;
  box-shadow: 0px 0px 10px #000;
- border-radius: 40px;
- padding: 15px;
+ border-radius: 11px;
+
  margin: auto;
  }
  .outer-div{
-  width: 94px;
-  left: -66px;
-  box-shadow: 1px 1px 28px black;
-  border-radius: 40px;
+  width: 81px;
+  left: -47px;
+  box-shadow: 0px 1px 4px black;
+  border-radius: 127px;
   position: relative;
-  top: -57px;
-  height: 70px;
+  top: -44px;
+  height: 74px;
  }
  .diversity-container {
   max-width: fit-content;
@@ -419,35 +384,33 @@ background-color: rgba(0, 0, 255, 0.778);
   border: 25px solid #fff;
   box-shadow: 0px 1px 5px #000;
   min-width: 485px;
-  border-top-color: rgba(228, 28, 28, 0.932);
+  border-top-color: rgb(214 27 27 / 93%);
   margin-top: 4%;
  }
  .con2{
-  border-top-color:  #9e29e8e7;
+  border-top-color:  #9b08f9;;
  }
  .con3{
-  border-top-color:  rgba(66, 66, 227, 0.916);
+  border-top-color:  rgb(97 97 247);
  }
  .three{
   margin: auto;
- }
+ } */
 
- /* ------emca-cards */
- .emca-main{
+/* .............EmacCardsMain.css............. */
+
+
+
+ /* .emca-main{
   display: flex;
     justify-content: space-evenly;;
-
 }
 .card-emca{
   position: relative;
-  /* width: 350px; */
   margin:1% 0%;
   border: none;
   height: 154px;
   max-width: 100%;
-  /* min-width: 400px; */
-
-
 }
 .card-img{
   width: 60px;
@@ -456,9 +419,7 @@ background-color: rgba(0, 0, 255, 0.778);
   bottom: 54px;
 }
 .body-emca{
-  /* height: 140px; */
-
   padding: 1% 5%;
   border-radius: 20px;
   box-shadow: 1px 1px 8px #00000061
-}
+} */

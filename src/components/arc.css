@@ -1,0 +1,22 @@
+/* ................arc-section............... */
+
+#arc{
+  min-width: 720px;
+    max-width: 100%;
+    box-shadow: 0px 0px 3px #000;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 5%;
+  }
+  #arc-img{
+   position: absolute;
+  max-width: fit-content;
+  }
+  .arc-para{
+    max-width: fit-content;
+    margin: auto;
+    position: absolute;
+    top: 134px;
+    left: 103px;
+    
+  }

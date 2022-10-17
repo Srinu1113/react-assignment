@@ -1,9 +1,10 @@
 import React from "react";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import './accordian1.css';
 
 function Accordion1(){
     return(
-        <div  >
+        <div  style={{'minWidth': "600px"}}>
              
             <div className="accordion" id="some">
                <div className="row">
