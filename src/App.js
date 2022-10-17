@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+// import Card from "./components/card";
+// import Emea from "./components/emea section";
+// import Emea1 from "./components/Emea1";
+// import Carddiv from "./components/cardDiversity/Carddiv";
+// import Resource from "./components/resource";
+// import Region from "./components/region";
+// import Accordion1 from "./components/accordian1";
+
+// import Arc from "./components/arc";
+//  import EmacCardsMain from "./components/EmacCardsMain";
+// import CardsectionMain from "./components/cards section2 Main";
+import Cardsection4 from "./components/4 col";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+
+         {/* <Card/>
+        <Emea/>
+        <Emea1/> 
+        <Carddiv/> 
+        <Region/>
+        <Resource/>
+        <Accordion1/>  */}
+
+      {/* <Arc/>  */}
+      {/* <EmacCardsMain/> */}
+     {/* < CardsectionMain /> */}
+     <Cardsection4/>
+        
     </div>
+    
+      
+   
   );
 }
 
