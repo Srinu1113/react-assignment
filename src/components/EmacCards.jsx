@@ -18,8 +18,8 @@ function EmacCards(props){
     //            </div>
      <div className="card  card-emca" >
                 <div className="card-body body-emca">
-                     <h3>{props.text}</h3>
-                     <h1 id="emca-h1">{props.heading}</h1>
+                     <h4>{props.text}</h4>
+                     <h2 id="emca-h1">{props.heading}</h2>
                      <small>{props.matter}</small>
                      <img src={props.imgUrl} className="card-img" alt="..."/>
                 </div>

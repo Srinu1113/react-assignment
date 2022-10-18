@@ -7,25 +7,25 @@ import React from "react";
 // import Region from "./components/region";
 // import Accordion1 from "./components/accordian1";
 // import EmacCardsMain from "./components/EmacCardsMain";
-// import Fourcolsec from "./components/four column";
+import Fourcolsec from "./components/four column";
 // import Arc from "./components/arc";
-import CardsectionMain from "./components/cards section2 Main";
-  //  import Carddiv from "./components/Carddiv";
+// import CardsectionMain from "./components/cards section2 Main";
+// import Carddiv from "./components/Carddiv";
 function App() {
   return (
     <div className="container" style={{'minWidth': "740px"}} >
 
-         {/* <Card/>
+        {/* <Card/>
         <Emea/>
         <Emea1/> 
-         <Resource/>
+        <Resource/>
         <Region/>
         <Accordion1/> 
-        <EmacCardsMain/>
+        <EmacCardsMain/> */}
         <Fourcolsec/>
-        <Arc/>  */}
-     < CardsectionMain />
-          {/* <Carddiv/> */}
+        {/* <Arc/>  
+        <CardsectionMain />
+        <Carddiv/> */}
     </div>
     
       

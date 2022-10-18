@@ -1,5 +1,7 @@
 /* .............EmacCardsMain.css............. */
-
+#emca-h1{
+  color: #7031af; 
+}
   .emca-main{
   display: flex;
     justify-content: space-evenly;;
@@ -15,7 +17,7 @@
   width: 60px;
   position: absolute;
   right: 17px;
-  bottom: 54px;
+  bottom: 61px;
 }
 .body-emca{
   padding: 1% 5%;
