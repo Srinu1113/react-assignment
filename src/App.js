@@ -14,18 +14,20 @@ import Fourcolsec from "./components/four column";
 function App() {
   return (
     <div className="container" style={{'minWidth': "740px"}} >
-
+  <Fourcolsec/>
         {/* <Card/>
         <Emea/>
         <Emea1/> 
-        <Resource/>
+         <Resource/>
         <Region/>
+       
         <Accordion1/> 
-        <EmacCardsMain/> */}
-        <Fourcolsec/>
-        {/* <Arc/>  
-        <CardsectionMain />
-        <Carddiv/> */}
+        <EmacCardsMain/>
+         */}
+        {/* <Arc/>  */}
+        {/* <CardsectionMain /> */}
+        {/* <Carddiv/> */}
+
     </div>
     
       

@@ -3,7 +3,8 @@ import './four column.css';
 
 function Fourcolsec(){
     return(
-        <div className="container" id="section" style={{'minWidth': "400px"}}>
+        <div className="container" id="section" >
+            {/* style={{'minWidth': "400px"}} */}
              <div className="hr-row"></div>
              <div className="cardsec2-row" >
                  <div className="hr-div2">  </div>
@@ -28,7 +29,7 @@ function Fourcolsec(){
                       <div className="matter">
                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, incidunt?</p><hr />
                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, incidunt?</p><hr />
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, incidunt?</p><hr />
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, incidunt?consectetur adipisicing elit. Sunt, incidunt</p><hr />
                       </div>
                  </div>
                  <div className="col-lg-3 col-md-6  ">

@@ -1,12 +1,12 @@
 
 .box1{
-    background-color: rgba(205, 177, 230, 0.592);
+    background-color: #91819f45;
     border-radius: 13px;
     position: relative;
     top: -7px;
   }
   .box2{
-    background-color: rgba(140, 229, 229, 0.635);
+    background-color:#a4dcdca1;
     border-radius: 13px;
     position: relative;
     top: -7px;
@@ -52,10 +52,10 @@
   @media (min-width: 768px){
     .box2{
       height:440px;
-      margin-top: 10%;
+      margin-top: 5%;
     }
     .box1{
-      margin-top: 10%;
+      margin-top: 5%;
       height: 440px;
     }
     .cardsec2-row{
@@ -66,9 +66,9 @@
         top: 62px;
         height: 64px;
         box-shadow: 0px 0px 10px;
-        width: 101%;
-        left: -7px;
-        border-radius: 10px;
+        width: 100%;
+        left: 0px;
+        border-radius: 9px;
     }
     .hr-div2{
       display: none;
@@ -81,4 +81,15 @@
     flex-wrap: wrap;
     background-color: none;
    }
+
+   @media (max-width: 756px){
+    #menu {
+      /* max-width: 720px; */
+      border: 1px solid;
+      border-style: groove;
+      box-shadow: 0px 0px 4px black;
+      border-radius: 14px;
+  }
+   }
+
    

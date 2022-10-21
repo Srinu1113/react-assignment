@@ -8,14 +8,14 @@ function Resource(){
                     <div className="resource-name">
                         <h1 style={{'color':'#fff'}}>Resources</h1>
                     </div>
-                    <img src="Snap\Resources\IMG-20221006-WA0001.jpg" width="100%" id="resource-img"alt="" />
+                    <img src="Snap\Resources\IMG-20221006-WA0001.jpg" width="100%" id="resource-img" alt="" />
                   
                     <div id="resource-card">
                     <ul>
-                        <li><img src="Snap\Resources\IMG-20221006-WA0000.jpg"alt=""/>Our Culture Evolution</li>
-                        <li><img src="Snap\Resources\IMG-20221006-WA0000.jpg"alt=""/> ENVU Cultural traits and behaviors</li>
-                        <li><img src="Snap\Resources\IMG-20221006-WA0000.jpg"alt=""/>ENVU Transformation Agent community</li>
-                        <li><img src="Snap\Resources\IMG-20221006-WA0000.jpg"alt=""/>Digital Kudos Cards</li>
+                        <li><img src="Snap\Resources\IMG-20221006-WA0000.jpg" className="res-img1"alt=""/>Our Culture Evolution</li>
+                        <li><img src="Snap\Resources\IMG-20221006-WA0000.jpg" className="res-img1"alt=""/> ENVU Cultural traits and behaviors</li>
+                        <li><img src="Snap\Resources\IMG-20221006-WA0000.jpg" className="res-img1"alt=""/>ENVU Transformation Agent community</li>
+                        <li><img src="Snap\Resources\IMG-20221006-WA0000.jpg" className="res-img1"alt=""/>Digital Kudos Cards</li>
                      </ul>
                   </div>
                 </div>

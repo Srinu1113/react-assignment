@@ -5,10 +5,11 @@
     margin-top: 5%;
   }
   .resource-img1{
-    max-width: 700px;
+    /* max-width: 700px; */
+    max-width: 655px;
     margin: auto;
     position: relative;
-    min-width: 680px;
+    /* min-width: 680px; */
     height: 365px;
   }
   #resource-card{
@@ -23,6 +24,10 @@
   #resource-card ul{
     padding: 5%;
     list-style-type: none;
+  }
+  .res-img1{
+    width: 7px;
+    margin-right: 7px;
   }
   #resource-card ul li{
     padding: 2%;

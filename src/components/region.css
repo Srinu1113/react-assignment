@@ -24,6 +24,8 @@
     left: -5px;
     border-top: 9px solid red;
     border-left: 9px solid blue;
+    /* border-top: 9px solid linear-gradient(red,blue);
+    border-left: 9px solid linear-gradient(red,blue); */
   }
   .region::before{
     display: block;

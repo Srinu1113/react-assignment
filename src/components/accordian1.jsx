@@ -12,7 +12,8 @@ function Accordion1(){
                         <div  className="card-header accordin-header-1">
                            <a className="card-link" href="#value1" data-toggle="collapse">Reward for Impact on Growth<ArrowDropDownIcon/></a>
                         </div>
-                        <div id="value1" className="collapse" data-parent="#some">
+                        <div id="value1" className="collapse"    >
+                                                             {/* data-parent="#some" */}
                               <div className="card-body accordin-body">
                                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus libero doloribus, dolore quibusdam, explicabo ipsum in quis possimus minima voluptatem! Quos tempora suscipit eum minima. 
                               </div>
@@ -23,7 +24,7 @@ function Accordion1(){
                         <div className="card-header accordin-header-2">
                              <a className="card-link" href="#value2" data-toggle="collapse" >Talent Sustainability<ArrowDropDownIcon/></a>
                         </div>
-                        <div id="value2" className="collapse" data-parent="#some">
+                        <div id="value2" className="collapse" >
                             <div className="card-body accordin-body">
                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus libero doloribus, dolore quibusdam, explicabo ipsum in quis possimus minima voluptatem! Quos tempora suscipit eum minima. 
                             </div>
@@ -35,7 +36,7 @@ function Accordion1(){
                         <div className="card-header accordin-header-3">
                              <a className="card-link" href="#value3" data-toggle="collapse" >Culture Supportive<ArrowDropDownIcon/></a>
                         </div>
-                        <div id="value3" className="collapse" data-parent="#some">
+                        <div id="value3" className="collapse" >
                             <div className="card-body accordin-body">
                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus libero doloribus, dolore quibusdam, explicabo ipsum in quis possimus minima voluptatem! Quos tempora suscipit eum minima. 
                             </div>

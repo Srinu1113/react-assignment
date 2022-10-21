@@ -9,8 +9,10 @@
     margin-top: 5%;
   }
   #arc-img{
-   position: absolute;
-  max-width: fit-content;
+    position: relative;
+    left: -5px;
+    top: -2px;
+
   }
   .arc-para{
     max-width: fit-content;
