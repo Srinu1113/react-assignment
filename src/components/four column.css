@@ -31,9 +31,18 @@
         height: 64px;
         box-shadow: 0px 0px 10px;
         width: 101%;
-        left: -7px;
+        left: -3px;
         border-radius: 10px;
   }
+  /* .hr-div2-one{
+    position: relative;
+        top: 62px;
+        height: 64px;
+        box-shadow: 0px 0px 10px;
+        width: 101%;
+        left: -3px;
+        border-radius: 10px;
+  } */
   
   @media (min-width: 992px){
    .box2{
@@ -82,13 +91,14 @@
     background-color: none;
    }
 
-   @media (max-width: 756px){
+   @media (max-width: 767px){
     #menu {
       /* max-width: 720px; */
       border: 1px solid;
       border-style: groove;
       box-shadow: 0px 0px 4px black;
       border-radius: 14px;
+      height: 443px;
   }
    }
 
